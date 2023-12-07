@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.inputType_title.text-black\/40.mb-2.w-full {
+  margin: 0;
+}
+
+.w-full.h-screen.flex.flex-wrap.justify-center.items-center.bg-cover.bg-no-repeat {
+  height: 100vh;
+}
+.inputBox-main.bg-white.p-3.rounded-lg.text-sm.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6%;
+  box-shadow: 0px 0px 15px rgba(66, 130, 213, 0.5);
+  border-radius: 5px;
+  background: white;
+}
+.inputType-main.w-1\/2 {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  width: 30%;
+  box-shadow: 0px 0px 15px;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f2eef22c;
+  border-radius: 10px;
+  /* border: 2px solid; */
+}
+.w-full.max-w-md.mx-auto.border.border-gray-60.rounded-lg.p-5.backdrop-blur-sm.bg-white\/30 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+.inputType-main.w-1\/2 {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.inputbox_input {
+  outline: none;
+  padding: 5%;
+  font-size: larger;
+  border:none;
+}
+.inputType_select.rounded-lg.px-1.py-1.bg-gray-100.cursor-pointer.outline-none {
+  padding: 5%;
+  width: 130px;
+  font-size: larger;
+  border: none;
+  border-radius: 2px;
+}
+.absolute.left-1\/2.-translate-x-1\/2.-translate-y-1\/2.border-2.border-white.rounded-md.bg-blue-600.text-white.px-2.py-0\.5 {
+  font-size: large;
+  padding: 14% 58%;
+  border: none;
+  background: aqua;
+  margin: 13% 0;
+  border-radius: 2px;
+}
+.w-full.bg-blue-600.text-white.px-4.py-3.rounded-lg {
+  font-size: large;
+  padding: 1% 5%;
+  border: none;
+  background: aqua;
+  margin: 2% 0;
+  border-radius: 2px;
+}
+.w-full.bg-blue-600.text-white.px-4.py-3.rounded-lg:hover
+{
+  background: rgba(100, 129, 32, 0.801);
+}
+
+.absolute.left-1\/2.-translate-x-1\/2.-translate-y-1\/2.border-2.border-white.rounded-md.bg-blue-600.text-white.px-2.py-0\.5:hover
+{
+  background: rgba(100, 129, 32, 0.801);
+}
